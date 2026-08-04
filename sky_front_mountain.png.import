@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcpl0hicuu3si"
-path="res://.godot/imported/MeioPreto.png-70ee51b3cd62d4eaaffa2eab877f43a1.ctex"
+uid="uid://csli4safekwvy"
+path="res://.godot/imported/sky_front_mountain.png-2977ed9ffd2ab82d923416d613d8101d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MeioPreto.png"
-dest_files=["res://.godot/imported/MeioPreto.png-70ee51b3cd62d4eaaffa2eab877f43a1.ctex"]
+source_file="res://sky_front_mountain.png"
+dest_files=["res://.godot/imported/sky_front_mountain.png-2977ed9ffd2ab82d923416d613d8101d.ctex"]
 
 [params]
 

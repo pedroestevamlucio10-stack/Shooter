@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://e5240nojkak4"
-path="res://.godot/imported/PressStart2P-Regular.ttf-2e69df3032d4029e990523871515f718.fontdata"
+uid="uid://c77m2w5w50ff6"
+path="res://.godot/imported/Diary Story.otf-7fa0260e5933950256f0a6cee37b62f9.fontdata"
 
 [deps]
 
-source_file="res://PressStart2P-Regular.ttf"
-dest_files=["res://.godot/imported/PressStart2P-Regular.ttf-2e69df3032d4029e990523871515f718.fontdata"]
+source_file="res://Diary Story.otf"
+dest_files=["res://.godot/imported/Diary Story.otf-7fa0260e5933950256f0a6cee37b62f9.fontdata"]
 
 [params]
 
@@ -22,7 +22,7 @@ msdf_size=48
 allow_system_fallback=true
 force_autohinter=false
 modulate_color_glyphs=false
-hinting=1
+hinting=3
 subpixel_positioning=4
 keep_rounding_remainders=true
 oversampling=0.0

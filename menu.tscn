@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://6dclxq5ox5lk"]
 
 [ext_resource type="Script" uid="uid://b1bvynvtgagkb" path="res://menu.gd" id="1_mae5d"]
-[ext_resource type="Texture2D" uid="uid://uvte8p5mbjrr" path="res://background.png" id="2_4hy44"]
-[ext_resource type="FontFile" uid="uid://e5240nojkak4" path="res://PressStart2P-Regular.ttf" id="3_ytr4m"]
+[ext_resource type="Texture2D" uid="uid://claoetdmmorgf" path="res://Sky_sky.png" id="2_mae5d"]
+[ext_resource type="FontFile" uid="uid://c77m2w5w50ff6" path="res://Diary Story.otf" id="3_4hy44"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l48gv"]
-texture = ExtResource("2_4hy44")
+texture = ExtResource("2_mae5d")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ecwwl"]
 bg_color = Color(0.07849034, 0.51878834, 0, 1)
@@ -84,30 +84,28 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_bottom = 357.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_l48gv")
 
 [node name="Título" type="Label" parent="." unique_id=1138966229]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = 5
 anchor_left = 0.5
-anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -408.0
-offset_top = -211.0
-offset_right = 408.0
-offset_bottom = -75.0
+offset_left = -327.5
+offset_top = 29.0
+offset_right = 327.5
+offset_bottom = 304.0
 grow_horizontal = 2
-grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 10
 theme_override_constants/shadow_offset_y = 7
 theme_override_constants/shadow_outline_size = 1
-theme_override_fonts/font = ExtResource("3_ytr4m")
-theme_override_font_sizes/font_size = 136
-text = "Runner"
+theme_override_fonts/font = ExtResource("3_4hy44")
+theme_override_font_sizes/font_size = 250
+text = "Parallax"
 
 [node name="Botões" type="VBoxContainer" parent="." unique_id=542954395]
 layout_mode = 1
@@ -127,8 +125,8 @@ theme_override_constants/separation = 54
 [node name="Jogar" type="Button" parent="Botões" unique_id=643370001]
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ytr4m")
-theme_override_font_sizes/font_size = 35
+theme_override_fonts/font = ExtResource("3_4hy44")
+theme_override_font_sizes/font_size = 57
 theme_override_styles/normal = SubResource("StyleBoxFlat_ecwwl")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_mae5d")
 theme_override_styles/hover = SubResource("StyleBoxFlat_4hy44")
@@ -137,8 +135,8 @@ text = "Jogar"
 [node name="Sair" type="Button" parent="Botões" unique_id=1206853432]
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ytr4m")
-theme_override_font_sizes/font_size = 35
+theme_override_fonts/font = ExtResource("3_4hy44")
+theme_override_font_sizes/font_size = 57
 theme_override_styles/normal = SubResource("StyleBoxFlat_nrnbx")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_ytr4m")
 theme_override_styles/hover = SubResource("StyleBoxFlat_l48gv")

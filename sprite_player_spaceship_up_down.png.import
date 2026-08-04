@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwjssfycxai3e"
-path="res://.godot/imported/thorn.png-b05b3deec4765bd22ac5be62061ed489.ctex"
+uid="uid://bj5872pfaoii5"
+path="res://.godot/imported/sprite_player_spaceship_up_down.png-c8581a365bea84834683d70392e5c15c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://thorn.png"
-dest_files=["res://.godot/imported/thorn.png-b05b3deec4765bd22ac5be62061ed489.ctex"]
+source_file="res://sprite_player_spaceship_up_down.png"
+dest_files=["res://.godot/imported/sprite_player_spaceship_up_down.png-c8581a365bea84834683d70392e5c15c.ctex"]
 
 [params]
 

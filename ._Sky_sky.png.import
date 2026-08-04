@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daa2mberh5vi5"
-path="res://.godot/imported/enemies.png-54f6dd22fa36905f43103a80b3460952.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://cs8arn6bm5agm"
+valid=false
 
 [deps]
 
-source_file="res://enemies.png"
-dest_files=["res://.godot/imported/enemies.png-54f6dd22fa36905f43103a80b3460952.ctex"]
+source_file="res://._Sky_sky.png"
 
 [params]
 
