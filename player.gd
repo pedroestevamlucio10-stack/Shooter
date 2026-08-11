@@ -1,8 +1,10 @@
 extends CharacterBody2D
 
-
+var vidas = 5
 const SPEED = 300.0
-
+var cena_tiro
+func _ready() -> void:
+	cena_tiro = preload ("res://tiro.tscn"	)
 
 func _physics_process(delta: float) -> void:
 	velocity.x = 0
@@ -18,3 +20,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y = 1*SPEED
 	
 	move_and_slide()
+	if Input.is_action_just_pressed("ui_accept"):
+		var tiro = cena_tiro.instantiate()
+		tiro.position.y = position.y
+		tiro.position.x = position.x+50
+		get_parent().add_child(tiro)

@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cnjc4c6rf463c" path="res://Sky_back_mountain.png" id="4_8c340"]
 [ext_resource type="Texture2D" uid="uid://csli4safekwvy" path="res://sky_front_mountain.png" id="5_45nkh"]
 [ext_resource type="Texture2D" uid="uid://dkq31j613srni" path="res://sky_cloud_floor_2.png" id="6_8c340"]
+[ext_resource type="Script" uid="uid://6gvt425ra6to" path="res://gerador_inimigos.gd" id="8_ysdx3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_evvns"]
 atlas = ExtResource("1_kxg5b")
@@ -83,17 +84,15 @@ size = Vector2(1352, 20)
 [node name="Jogo" type="Node2D" unique_id=1261547839]
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=830384450]
-position = Vector2(-407, 87)
+position = Vector2(91, 335)
 script = ExtResource("1_evvns")
 
 [node name="Imagem" type="AnimatedSprite2D" parent="Player" unique_id=121962483]
-position = Vector2(526.3333, 268)
 scale = Vector2(0.45333335, 0.45333335)
 sprite_frames = SubResource("SpriteFrames_evvns")
 autoplay = "default"
 
 [node name="Corpo" type="CollisionShape2D" parent="Player" unique_id=2114337308]
-position = Vector2(525, 269)
 shape = SubResource("RectangleShape2D_mtw28")
 
 [node name="Paredes" type="StaticBody2D" parent="." unique_id=1879848597]
@@ -150,6 +149,15 @@ motion_scale = Vector2(3, 3)
 motion_mirroring = Vector2(1152, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/FundoNuvens" unique_id=139106097]
-position = Vector2(574, 389.5)
+position = Vector2(574.00006, 400.5)
 scale = Vector2(0.6073684, 0.519)
 texture = ExtResource("6_8c340")
+
+[node name="GeradorInimigos" type="Node2D" parent="." unique_id=83088943]
+script = ExtResource("8_ysdx3")
+
+[node name="Timer" type="Timer" parent="GeradorInimigos" unique_id=946306269]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="GeradorInimigos/Timer" to="GeradorInimigos" method="_on_timer_timeout"]
