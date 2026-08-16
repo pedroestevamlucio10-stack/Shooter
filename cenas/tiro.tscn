@@ -1,18 +1,14 @@
 [gd_scene format=3 uid="uid://yleg0tc7842c"]
 
-[ext_resource type="Script" uid="uid://tl30ijqblcrx" path="res://tiro.gd" id="1_gp2hl"]
-[ext_resource type="Texture2D" uid="uid://dnugqgyu4n2ne" path="res://shooting laser-sheet.png" id="2_wib4g"]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rivwi"]
-radius = 4.0
-height = 54.0
+[ext_resource type="Script" uid="uid://tl30ijqblcrx" path="res://tiro.gd" id="1_r2yu0"]
+[ext_resource type="Texture2D" uid="uid://dnugqgyu4n2ne" path="res://imagens/shooting laser-sheet.png" id="2_r2yu0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a4dry"]
-atlas = ExtResource("2_wib4g")
+atlas = ExtResource("2_r2yu0")
 region = Rect2(0, 0, 211, 92)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_biowf"]
-atlas = ExtResource("2_wib4g")
+atlas = ExtResource("2_r2yu0")
 region = Rect2(211, 0, 211, 92)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_81s17"]
@@ -29,10 +25,19 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rivwi"]
+radius = 6.0
+height = 66.0
+
 [node name="Tiro" type="Area2D" unique_id=1206343551]
 collision_layer = 0
 collision_mask = 2
-script = ExtResource("1_gp2hl")
+script = ExtResource("1_r2yu0")
+
+[node name="ImagemTiro" type="AnimatedSprite2D" parent="." unique_id=1995595658]
+scale = Vector2(0.3837727, 0.23913042)
+sprite_frames = SubResource("SpriteFrames_81s17")
+frame_progress = 0.76256216
 
 [node name="CorpoTiro" type="CollisionShape2D" parent="." unique_id=1571908867]
 light_mask = 3
@@ -40,10 +45,5 @@ visibility_layer = 3
 position = Vector2(-2, 0)
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_rivwi")
-
-[node name="ImagemTiro" type="AnimatedSprite2D" parent="." unique_id=1995595658]
-scale = Vector2(0.31399584, 0.19565217)
-sprite_frames = SubResource("SpriteFrames_81s17")
-frame_progress = 0.76256216
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

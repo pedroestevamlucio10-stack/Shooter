@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcpl0hicuu3si"
-path="res://.godot/imported/MeioPreto.png-70ee51b3cd62d4eaaffa2eab877f43a1.ctex"
+uid="uid://4udhni7n4gu7"
+path="res://.godot/imported/explosion-sheet.png-fd1f90f39b972a88464edafb8b7d2dac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MeioPreto.png"
-dest_files=["res://.godot/imported/MeioPreto.png-70ee51b3cd62d4eaaffa2eab877f43a1.ctex"]
+source_file="res://imagens/explosion-sheet.png"
+dest_files=["res://.godot/imported/explosion-sheet.png-fd1f90f39b972a88464edafb8b7d2dac.ctex"]
 
 [params]
 

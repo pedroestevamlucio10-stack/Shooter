@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uvte8p5mbjrr"
-path="res://.godot/imported/background.png-98289422cd7d93003950872a7b97021f.ctex"
+uid="uid://bh421kehfrl1e"
+path="res://.godot/imported/enemy_zig_zag-sheet.png-ed391f88c019baf723aed67d83ba545d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://background.png"
-dest_files=["res://.godot/imported/background.png-98289422cd7d93003950872a7b97021f.ctex"]
+source_file="res://imagens/enemy_zig_zag-sheet.png"
+dest_files=["res://.godot/imported/enemy_zig_zag-sheet.png-ed391f88c019baf723aed67d83ba545d.ctex"]
 
 [params]
 

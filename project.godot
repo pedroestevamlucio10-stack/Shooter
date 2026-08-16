@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Runner_Jogo"
+config/name="Jogo_Shooter"
 run/main_scene="uid://6dclxq5ox5lk"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://imagens/icon.svg"
 
 [physics]
 

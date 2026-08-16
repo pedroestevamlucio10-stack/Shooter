@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpi71dvoqn6bk"
-path="res://.godot/imported/MeioAzul.png-fde1292aa1a727227fdd0cd1fe25de9a.ctex"
+uid="uid://bj5872pfaoii5"
+path="res://.godot/imported/sprite_player_spaceship_up_down.png-32faf1dc71f92faa381880d2d352f265.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MeioAzul.png"
-dest_files=["res://.godot/imported/MeioAzul.png-fde1292aa1a727227fdd0cd1fe25de9a.ctex"]
+source_file="res://imagens/sprite_player_spaceship_up_down.png"
+dest_files=["res://.godot/imported/sprite_player_spaceship_up_down.png-32faf1dc71f92faa381880d2d352f265.ctex"]
 
 [params]
 

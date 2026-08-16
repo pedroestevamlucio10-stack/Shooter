@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1w3aqmsfcred"
-path="res://.godot/imported/foreground.png-2f01737783171ba7340b48a5028ba5e9.ctex"
+uid="uid://cnjc4c6rf463c"
+path="res://.godot/imported/Sky_back_mountain.png-37b1c85721e326e28a4eec22ef25154c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://foreground.png"
-dest_files=["res://.godot/imported/foreground.png-2f01737783171ba7340b48a5028ba5e9.ctex"]
+source_file="res://imagens/Sky_back_mountain.png"
+dest_files=["res://.godot/imported/Sky_back_mountain.png-37b1c85721e326e28a4eec22ef25154c.ctex"]
 
 [params]
 

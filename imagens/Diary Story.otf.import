@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://c77m2w5w50ff6"
-path="res://.godot/imported/Diary Story.otf-7fa0260e5933950256f0a6cee37b62f9.fontdata"
+path="res://.godot/imported/Diary Story.otf-4705965fa9ec8a7bdf7f0364a50a0f4d.fontdata"
 
 [deps]
 
-source_file="res://Diary Story.otf"
-dest_files=["res://.godot/imported/Diary Story.otf-7fa0260e5933950256f0a6cee37b62f9.fontdata"]
+source_file="res://imagens/Diary Story.otf"
+dest_files=["res://.godot/imported/Diary Story.otf-4705965fa9ec8a7bdf7f0364a50a0f4d.fontdata"]
 
 [params]
 

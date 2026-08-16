@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4udhni7n4gu7"
-path="res://.godot/imported/explosion-sheet.png-9c0cfbe881de676d92f62fab6b35874d.ctex"
+uid="uid://dnugqgyu4n2ne"
+path="res://.godot/imported/shooting laser-sheet.png-f8e251395538f51bb5ec3d18053fa843.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://explosion-sheet.png"
-dest_files=["res://.godot/imported/explosion-sheet.png-9c0cfbe881de676d92f62fab6b35874d.ctex"]
+source_file="res://imagens/shooting laser-sheet.png"
+dest_files=["res://.godot/imported/shooting laser-sheet.png-f8e251395538f51bb5ec3d18053fa843.ctex"]
 
 [params]
 
