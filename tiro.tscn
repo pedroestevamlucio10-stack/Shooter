@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://dnugqgyu4n2ne" path="res://shooting laser-sheet.png" id="2_wib4g"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rivwi"]
-radius = 17.0
-height = 176.0
+radius = 4.0
+height = 54.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a4dry"]
 atlas = ExtResource("2_wib4g")
@@ -35,11 +35,14 @@ collision_mask = 2
 script = ExtResource("1_gp2hl")
 
 [node name="CorpoTiro" type="CollisionShape2D" parent="." unique_id=1571908867]
-position = Vector2(-7, 0)
+light_mask = 3
+visibility_layer = 3
+position = Vector2(-2, 0)
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_rivwi")
 
 [node name="ImagemTiro" type="AnimatedSprite2D" parent="." unique_id=1995595658]
+scale = Vector2(0.31399584, 0.19565217)
 sprite_frames = SubResource("SpriteFrames_81s17")
 frame_progress = 0.76256216
 

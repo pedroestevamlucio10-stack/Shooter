@@ -8,6 +8,6 @@ func _process(delta):
 		queue_free()
 
 func _on_area_entered(area):
-	if area.is_in_group("inimigos"):
+	if area.is_in_group("inimigo"):
 		area.explodir()     
-		queue_free()        
+		queue_free()

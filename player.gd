@@ -20,6 +20,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y = 1*SPEED
 	
 	move_and_slide()
+	
+	
 	if Input.is_action_just_pressed("ui_accept"):
 		var tiro = cena_tiro.instantiate()
 		tiro.position.y = position.y
